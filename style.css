@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    box-sizing: border-box;
 
 }
 header{
@@ -7,15 +8,18 @@ header{
     display: flex;
     flex-direction: column;
     height: 100vh;
-    background-color: #999999;
+    align-items: center;
 }
 .header{
     height: 50px;
-    background-color: #fff;
+    background-color: #999999;
+    width: 90vw;
+    
 }
 .slider{
     flex: 1;
     overflow: hidden;
+    width: 90vw;
 }
 .slider-width{
     width: calc(100vw*3);
@@ -25,8 +29,7 @@ header{
 }
 .slider-item{
     width:100vw;
-    height: inherit
-    background-repeat: no-repeat;
+    height: inherit;
     background-size: cover;
 }
 .slider-item01{

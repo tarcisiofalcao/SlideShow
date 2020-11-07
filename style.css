@@ -1,8 +1,11 @@
 *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 body{
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 
 }
@@ -16,17 +19,21 @@ header{
 .header{
     height: 50px;
     background-color: #999999;
-    width: 90vw;
-    
+    width: 100vw;
+    margin: 0;
+    padding: 0;
 }
 .slider{
     flex: 1;
     overflow: hidden;
-    width: 90vw;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
 }
 .slider-buttons{
     height: 100%;
-    width: 90vw;
+    width: 100vw;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -38,8 +45,7 @@ header{
     color: white;
     line-height: 90px;
     font-size: 80px;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin: 0;
     padding: 0;
     background-color: rgba(0,0,0,0.3);
     text-align: center;
@@ -51,11 +57,11 @@ header{
 .slider-width{
     height: 100%;
     display: flex;
-    transition: all ease 0.3s;
+    transition: all ease 0.6s;
     
 }
 .slider-item{
-    width:100%;
+    width:100vw;
     height: inherit;
     background-size: cover;
 }
